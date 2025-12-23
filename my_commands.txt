@@ -1,0 +1,819 @@
+    1  nvidia-smi
+    2  cd DEsk
+    3  cd Desktop/
+    4  touch Notes_Video2Robot
+    5  cd ../../
+    6  cp .env.example .env
+    7  echo "GOOGLE_API_KEY=AIzaSyDKi1nW26G0zm2btw4LFFM0219HwpQZQy8" >> .env
+    8  cd third_party/PromptHMR
+    9  conda activate phmr
+   10  pip install -e .
+   11  pip install -e.
+   12  pip install -e. install -e .
+   13  export TORCH_CUDA_ARCH_LIST="8.9+PTX"
+   14  export CUDA_HOME=/usr/local/cuda-12.8
+   15  export PATH=$CUDA_HOME/bin:$PATH
+   16  export LD_LIBRARY_PATH=$CUDA_HOME/lib64:$LD_LIBRARY_PATH
+   17  pip install -e .
+   18  l
+   19  python scripts/run_pipeline.py --action "Action sequence:
+   20  The subject walks forward with four steps."
+   21  export PYTHONPATH=$HOME/DROID-SLAM:$PYTHONPATH
+   22  python scripts/run_pipeline.py --action "Action sequence:
+   23  The subject walks forward with four steps."
+   24  $PYTHONPATH 
+   25  python - <<EOF
+   26  import droid
+   27  print(droid)
+   28  EOF
+   29  python - <<EOF
+   30  import droid
+   31  print(droid)
+   32  EOF
+   33  echo 'export PYTHONPATH=$HOME/DROID-SLAM:$PYTHONPATH' >> ~/.bashrc
+   34  source ~/.bashrc
+   35  python - <<EOF
+   36  import droid
+   37  print(droid)
+   38  EOF
+   39  python - <<EOF
+   40  import droid
+   41  print(droid)
+   42  EOF
+   43  conda activate phmr
+   44  python - <<EOF
+   45  import droid
+   46  print(droid)
+   47  EOF
+   48  ls $HOME/DROID-SLAM | head -20
+   49  find $HOME -name droid.py | grep DROID
+   50  export PYTHONPATH=/home/ubuntu/DROID-SLAM/droid_slam:$PYTHONPATH
+   51  python - <<EOF
+   52  import droid
+   53  print(droid)
+   54  EOF
+   55  pip install torch-scatter   -f https://data.pyg.org/whl/torch-2.9.0+cu128.html
+   56  export TORCH_CUDA_ARCH_LIST="8.9+PTX"
+   57  export CUDA_HOME=/usr/local/cuda-12.8
+   58  export PATH=$CUDA_HOME/bin:$PATH
+   59  export LD_LIBRARY_PATH=$CUDA_HOME/lib64:$LD_LIBRARY_PATH
+   60  pip install torch-scatter   -f https://data.pyg.org/whl/torch-2.9.0+cu128.html
+   61  [200~python - <<EOF
+   62  import torch
+   63  print(torch.__version__, torch.version.cuda)
+   64  EOF~
+   65  EOF
+   66  > import torch
+   67  > print(torch.__version__, torch.version.cuda)
+   68  > EOF
+   69  python - <<EOF
+   70  import torch
+   71  print(torch.__version__, torch.version.cuda)
+   72  EOF~
+   73  python - <<EOF
+   74  import torch
+   75  print(torch.__version__, torch.version.cuda)
+   76  EOF
+   77  pip install torch-scatter   -f https://data.pyg.org/whl/torch-2.9.0+cu128.html   --no-build-isolation
+   78  python scripts/run_pipeline.py --action "Action sequence:
+   79  The subject walks forward with four steps."
+   80  python scripts/generate_video.py --action "Action sequence: The subject walks forward."
+   81  cd ../../
+   82  ls
+   83  cd ../
+   84  python scripts/generate_video.py --action "Action sequence: The subject walks forward."
+   85  cd video2robot/
+   86  cd third_party/PromptHMR/
+   87  LS
+   88  ls
+   89  cd ../../
+   90  python scripts/generate_video.py --action "Action sequence: The subject walks forward."
+   91  pip install python-dotenv
+   92  python scripts/generate_video.py --action "Action sequence: The subject walks forward."
+   93  pip install openai
+   94  python scripts/generate_video.py --action "Action sequence: The subject walks forward."
+   95  python scripts/run_pipeline.py --project data/video_001
+   96  sudo apt install -y ffmpeg
+   97  python scripts/run_pipeline.py --project data/video_001
+   98  source ~/.bashrc 
+   99  nvcc --version
+  100  python - <<EOF
+  101  import torch
+  102  print("torch:", torch.__version__)
+  103  print("cuda available:", torch.cuda.is_available())
+  104  print("gpu:", torch.cuda.get_device_name(0))
+  105  EOF
+  106  conda activate phmr
+  107  python - <<EOF
+  108  import torch
+  109  print("torch:", torch.__version__)
+  110  print("cuda available:", torch.cuda.is_available())
+  111  print("gpu:", torch.cuda.get_device_name(0))
+  112  EOF
+  113  sudo reboot
+  114  git clone --recursive https://github.com/AIM-Intelligence/video2robot.git
+  115  cd video2robot
+  116  git submodule update --init --recursive
+  117  sudo apt update && sudo apt upgrade -y
+  118  wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
+  119  cd video2robot/
+  120  cd ../../
+  121  bash Miniconda3-latest-Linux-x86_64.sh
+  122  source ~/miniconda3/bin/activate
+  123  conda create -n phmr python=3.10 -y
+  124  conda activate phmr
+  125  cd video2robot
+  126  git submodule update --init --recursive
+  127  conda create -n gmr python=3.10 -y
+  128  conda activate gmr
+  129  pip install -e .
+  130  conda create -n gmr python=3.10 -y
+  131  conda tos accept --override-channels --channel https://repo.anaconda.com/pkgs/main
+  132  conda tos accept --override-channels --channel https://repo.anaconda.com/pkgs/r
+  133  conda create -n gmr python=3.10 -y
+  134  conda activate gmr
+  135  pip install -e .
+  136  conda create -n phmr python=3.10 -y
+  137  conda activate phmr
+  138  cd third_party/PromptHMR
+  139  pip install -e .
+  140  export PYTHONPATH=$PWD/third_party/PromptHMR:$PYTHONPATH
+  141  pip install -e .
+  142  cd ../
+  143  pip install -r third_party/PromptHMR/requirements.txt
+  144  sudo apt install -y build-essential
+  145  pip install pyliblzfse
+  146  cd third_party/PromptHMR
+  147  pip install -e .
+  148  export PYTHONPATH=$HOME/video2robot/third_party/PromptHMR:$PYTHONPATH
+  149  python - <<EOF
+  150  import sys
+  151  print([p for p in sys.path if "PromptHMR" in p])
+  152  EOF
+  153  pip install -e .
+  154  python scripts/run_pipeline.py --action "Action sequence:
+  155  The subject walks forward with four steps."
+  156  pip install cv2
+  157  pip install opencv
+  158  pip install opencv-python
+  159  python scripts/run_pipeline.py --action "Action sequence:
+  160  The subject walks forward with four steps."
+  161  pip install -e .
+  162  pip install -r requirements.txt
+  163  pip install -e .
+  164  python scripts/run_pipeline.py --action "Action sequence:
+  165  The subject walks forward with four steps."
+  166  pip install git+https://github.com/princeton-vl/lietorch.git
+  167  sudo apt update
+  168  sudo apt install -y cuda-toolkit-12-4
+  169  nvcc -version
+  170  sudo apt install -y nvidia-cuda-toolki
+  171  sudo apt install -y nvidia-cuda-toolkit
+  172  sudo apt update
+  173  pip install git+https://github.com/princeton-vl/lietorch.git
+  174  sudo apt remove -y nvidia-cuda-toolkit
+  175  which nvcc
+  176  # should return nothing
+  177  which nvcc
+  178  nvcc --version
+  179  cd ../../
+  180  wget https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2204/x86_64/cuda-keyring_1.1-1_all.deb
+  181  sudo dpkg -i cuda-keyring_1.1-1_all.deb
+  182  sudo apt update
+  183  sudo apt install -y cuda-toolkit-12-8
+  184  cd third_party/PromptHMR
+  185  python --version
+  186  pip install -e .
+  187  python scripts/run_pipeline.py --action "Action sequence:
+  188  The subject walks forward with four steps."
+  189  pip install git+https://github.com/princeton-vl/lietorch.git
+  190  export TORCH_CUDA_ARCH_LIST="8.9"
+  191  export TORCH_CUDA_ARCH_LIST="8.9+PTX"
+  192  pip uninstall -y lietorch
+  193  pip cache purge
+  194  pip install git+https://github.com/princeton-vl/lietorch.git
+  195  python scripts/run_pipeline.py --action "Action sequence:
+  196  The subject walks forward with four steps."
+  197  cd ~/video2robot/third_party/PromptHMR/pipeline/droidcalib/droid_slam
+  198  export TORCH_CUDA_ARCH_LIST="8.9+PTX"
+  199  export CUDA_HOME=/usr/local/cuda-12.8
+  200  export PATH=$CUDA_HOME/bin:$PATH
+  201  export LD_LIBRARY_PATH=$CUDA_HOME/lib64:$LD_LIBRARY_PATH
+  202  python install -e .
+  203  python install -v .
+  204  python setup.py install
+  205  python - <<EOF
+  206  import droid_backends_intr
+  207  print("droid_backends_intr OK")
+  208  EOF
+  209  cd sr
+  210  ls
+  211  grep -R "droid_backends_intr" -n .
+  212  cd ./modules/
+  213  ls
+  214  cd ../
+  215  git clone https://github.com/princeton-vl/DROID-SLAM.git
+  216  pip install -v .
+  217  export PYTHONPATH=$HOME/DROID-SLAM:$PYTHONPATH
+  218  pip install -v .
+  219  pip install torch torchvision torchaudio
+  220  pip install -v .
+  221  ls
+  222  rm -r droid_slam/
+  223  cd ~
+  224  git clone https://github.com/princeton-vl/DROID-SLAM.git
+  225  cd Droi
+  226  cd DROID-SLAM/
+  227  export TORCH_CUDA_ARCH_LIST="8.9+PTX"
+  228  export CUDA_HOME=/usr/local/cuda-12.8
+  229  export PATH=$CUDA_HOME/bin:$PATH
+  230  export LD_LIBRARY_PATH=$CUDA_HOME/lib64:$LD_LIBRARY_PATH
+  231  pip install -v .
+  232  pip install -v . --no-build-isolation
+  233  sudo apt install -y libeigen3-dev
+  234  pip install -v . --no-build-isolation
+  235  sudo apt update
+  236  pip install -v . --no-build-isolation
+  237  ls /usr/include/eigen3/Eigen/Sparse
+  238  pip install -v . --no-build-isolation
+  239  sudo apt install libeigen3-dev
+  240  sudo apt-get update
+  241  sudo apt-get install libeigen3-dev
+  242  export EIGEN_HOME=/usr/include/eigen3
+  243  pip install -v . --no-build-isolation
+  244  rm -rf build/ dist/ *.egg-info
+  245  pip install .
+  246  rm -rf build/ dist/ *.egg-info
+  247  export CPLUS_INCLUDE_PATH=/usr/include/eigen3:$CPLUS_INCLUDE_PATH
+  248  export CPATH=/usr/include/eigen3:$CPATH
+  249  pip install -v . --no-build-isolation
+  250  lspci | grep -i nvidia
+  251  sudo ubuntu-drivers devices
+  252  sudo apt install -y nvidia-driver-580-open
+  253  nvcc --version
+  254  echo 'export CUDA_HOME=/usr' >> ~/.bashrc
+  255  echo 'export PATH=/usr/bin:$PATH' >> ~/.bashrc
+  256  echo 'export LD_LIBRARY_PATH=/usr/lib/x86_64-linux-gnu:$LD_LIBRARY_PATH' >> ~/.bashrc
+  257  export EIGEN_HOME=/usr/include/eigen3
+  258  python - <<EOF
+  259  import torch
+  260  print("torch:", torch.__version__)
+  261  print("cuda available:", torch.cuda.is_available())
+  262  print("gpu:", torch.cuda.get_device_name(0))
+  263  EOF
+  264  cd ../
+  265  cd Desktop/
+  266  history > my_commands.txt
+    1  nvidia-smi
+    2  cd DEsk
+    3  cd Desktop/
+    4  touch Notes_Video2Robot
+    5  cd ../../
+    6  cp .env.example .env
+    7  echo "GOOGLE_API_KEY=AIzaSyDKi1nW26G0zm2btw4LFFM0219HwpQZQy8" >> .env
+    8  cd third_party/PromptHMR
+    9  conda activate phmr
+   10  pip install -e .
+   11  pip install -e.
+   12  pip install -e. install -e .
+   13  export TORCH_CUDA_ARCH_LIST="8.9+PTX"
+   14  export CUDA_HOME=/usr/local/cuda-12.8
+   15  export PATH=$CUDA_HOME/bin:$PATH
+   16  export LD_LIBRARY_PATH=$CUDA_HOME/lib64:$LD_LIBRARY_PATH
+   17  pip install -e .
+   18  l
+   19  python scripts/run_pipeline.py --action "Action sequence:
+   20  The subject walks forward with four steps."
+   21  export PYTHONPATH=$HOME/DROID-SLAM:$PYTHONPATH
+   22  python scripts/run_pipeline.py --action "Action sequence:
+   23  The subject walks forward with four steps."
+   24  $PYTHONPATH 
+   25  python - <<EOF
+   26  import droid
+   27  print(droid)
+   28  EOF
+   29  python - <<EOF
+   30  import droid
+   31  print(droid)
+   32  EOF
+   33  echo 'export PYTHONPATH=$HOME/DROID-SLAM:$PYTHONPATH' >> ~/.bashrc
+   34  source ~/.bashrc
+   35  python - <<EOF
+   36  import droid
+   37  print(droid)
+   38  EOF
+   39  python - <<EOF
+   40  import droid
+   41  print(droid)
+   42  EOF
+   43  conda activate phmr
+   44  python - <<EOF
+   45  import droid
+   46  print(droid)
+   47  EOF
+   48  ls $HOME/DROID-SLAM | head -20
+   49  find $HOME -name droid.py | grep DROID
+   50  export PYTHONPATH=/home/ubuntu/DROID-SLAM/droid_slam:$PYTHONPATH
+   51  python - <<EOF
+   52  import droid
+   53  print(droid)
+   54  EOF
+   55  pip install torch-scatter   -f https://data.pyg.org/whl/torch-2.9.0+cu128.html
+   56  export TORCH_CUDA_ARCH_LIST="8.9+PTX"
+   57  export CUDA_HOME=/usr/local/cuda-12.8
+   58  export PATH=$CUDA_HOME/bin:$PATH
+   59  export LD_LIBRARY_PATH=$CUDA_HOME/lib64:$LD_LIBRARY_PATH
+   60  pip install torch-scatter   -f https://data.pyg.org/whl/torch-2.9.0+cu128.html
+   61  [200~python - <<EOF
+   62  import torch
+   63  print(torch.__version__, torch.version.cuda)
+   64  EOF~
+   65  EOF
+   66  > import torch
+   67  > print(torch.__version__, torch.version.cuda)
+   68  > EOF
+   69  python - <<EOF
+   70  import torch
+   71  print(torch.__version__, torch.version.cuda)
+   72  EOF~
+   73  python - <<EOF
+   74  import torch
+   75  print(torch.__version__, torch.version.cuda)
+   76  EOF
+   77  pip install torch-scatter   -f https://data.pyg.org/whl/torch-2.9.0+cu128.html   --no-build-isolation
+   78  python scripts/run_pipeline.py --action "Action sequence:
+   79  The subject walks forward with four steps."
+   80  python scripts/generate_video.py --action "Action sequence: The subject walks forward."
+   81  cd ../../
+   82  ls
+   83  cd ../
+   84  python scripts/generate_video.py --action "Action sequence: The subject walks forward."
+   85  cd video2robot/
+   86  cd third_party/PromptHMR/
+   87  LS
+   88  ls
+   89  cd ../../
+   90  python scripts/generate_video.py --action "Action sequence: The subject walks forward."
+   91  pip install python-dotenv
+   92  python scripts/generate_video.py --action "Action sequence: The subject walks forward."
+   93  pip install openai
+   94  python scripts/generate_video.py --action "Action sequence: The subject walks forward."
+   95  python scripts/run_pipeline.py --project data/video_001
+   96  sudo apt install -y ffmpeg
+   97  python scripts/run_pipeline.py --project data/video_001
+   98  source ~/.bashrc 
+   99  nvcc --version
+  100  python - <<EOF
+  101  import torch
+  102  print("torch:", torch.__version__)
+  103  print("cuda available:", torch.cuda.is_available())
+  104  print("gpu:", torch.cuda.get_device_name(0))
+  105  EOF
+  106  conda activate phmr
+  107  python - <<EOF
+  108  import torch
+  109  print("torch:", torch.__version__)
+  110  print("cuda available:", torch.cuda.is_available())
+  111  print("gpu:", torch.cuda.get_device_name(0))
+  112  EOF
+  113  sudo reboot
+  114  git clone --recursive https://github.com/AIM-Intelligence/video2robot.git
+  115  cd video2robot
+  116  git submodule update --init --recursive
+  117  sudo apt update && sudo apt upgrade -y
+  118  wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
+  119  cd video2robot/
+  120  cd ../../
+  121  bash Miniconda3-latest-Linux-x86_64.sh
+  122  source ~/miniconda3/bin/activate
+  123  conda create -n phmr python=3.10 -y
+  124  conda activate phmr
+  125  cd video2robot
+  126  git submodule update --init --recursive
+  127  conda create -n gmr python=3.10 -y
+  128  conda activate gmr
+  129  pip install -e .
+  130  conda create -n gmr python=3.10 -y
+  131  conda tos accept --override-channels --channel https://repo.anaconda.com/pkgs/main
+  132  conda tos accept --override-channels --channel https://repo.anaconda.com/pkgs/r
+  133  conda create -n gmr python=3.10 -y
+  134  conda activate gmr
+  135  pip install -e .
+  136  conda create -n phmr python=3.10 -y
+  137  conda activate phmr
+  138  cd third_party/PromptHMR
+  139  pip install -e .
+  140  export PYTHONPATH=$PWD/third_party/PromptHMR:$PYTHONPATH
+  141  pip install -e .
+  142  cd ../
+  143  pip install -r third_party/PromptHMR/requirements.txt
+  144  sudo apt install -y build-essential
+  145  pip install pyliblzfse
+  146  cd third_party/PromptHMR
+  147  pip install -e .
+  148  export PYTHONPATH=$HOME/video2robot/third_party/PromptHMR:$PYTHONPATH
+  149  python - <<EOF
+  150  import sys
+  151  print([p for p in sys.path if "PromptHMR" in p])
+  152  EOF
+  153  pip install -e .
+  154  python scripts/run_pipeline.py --action "Action sequence:
+  155  The subject walks forward with four steps."
+  156  pip install cv2
+  157  pip install opencv
+  158  pip install opencv-python
+  159  python scripts/run_pipeline.py --action "Action sequence:
+  160  The subject walks forward with four steps."
+  161  pip install -e .
+  162  pip install -r requirements.txt
+  163  pip install -e .
+  164  python scripts/run_pipeline.py --action "Action sequence:
+  165  The subject walks forward with four steps."
+  166  pip install git+https://github.com/princeton-vl/lietorch.git
+  167  sudo apt update
+  168  sudo apt install -y cuda-toolkit-12-4
+  169  nvcc -version
+  170  sudo apt install -y nvidia-cuda-toolki
+  171  sudo apt install -y nvidia-cuda-toolkit
+  172  sudo apt update
+  173  pip install git+https://github.com/princeton-vl/lietorch.git
+  174  sudo apt remove -y nvidia-cuda-toolkit
+  175  which nvcc
+  176  # should return nothing
+  177  which nvcc
+  178  nvcc --version
+  179  cd ../../
+  180  wget https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2204/x86_64/cuda-keyring_1.1-1_all.deb
+  181  sudo dpkg -i cuda-keyring_1.1-1_all.deb
+  182  sudo apt update
+  183  sudo apt install -y cuda-toolkit-12-8
+  184  cd third_party/PromptHMR
+  185  python --version
+  186  pip install -e .
+  187  python scripts/run_pipeline.py --action "Action sequence:
+  188  The subject walks forward with four steps."
+  189  pip install git+https://github.com/princeton-vl/lietorch.git
+  190  export TORCH_CUDA_ARCH_LIST="8.9"
+  191  export TORCH_CUDA_ARCH_LIST="8.9+PTX"
+  192  pip uninstall -y lietorch
+  193  pip cache purge
+  194  pip install git+https://github.com/princeton-vl/lietorch.git
+  195  python scripts/run_pipeline.py --action "Action sequence:
+  196  The subject walks forward with four steps."
+  197  cd ~/video2robot/third_party/PromptHMR/pipeline/droidcalib/droid_slam
+  198  export TORCH_CUDA_ARCH_LIST="8.9+PTX"
+  199  export CUDA_HOME=/usr/local/cuda-12.8
+  200  export PATH=$CUDA_HOME/bin:$PATH
+  201  export LD_LIBRARY_PATH=$CUDA_HOME/lib64:$LD_LIBRARY_PATH
+  202  python install -e .
+  203  python install -v .
+  204  python setup.py install
+  205  python - <<EOF
+  206  import droid_backends_intr
+  207  print("droid_backends_intr OK")
+  208  EOF
+  209  cd sr
+  210  ls
+  211  grep -R "droid_backends_intr" -n .
+  212  cd ./modules/
+  213  ls
+  214  cd ../
+  215  git clone https://github.com/princeton-vl/DROID-SLAM.git
+  216  pip install -v .
+  217  export PYTHONPATH=$HOME/DROID-SLAM:$PYTHONPATH
+  218  pip install -v .
+  219  pip install torch torchvision torchaudio
+  220  pip install -v .
+  221  ls
+  222  rm -r droid_slam/
+  223  cd ~
+  224  git clone https://github.com/princeton-vl/DROID-SLAM.git
+  225  cd Droi
+  226  cd DROID-SLAM/
+  227  export TORCH_CUDA_ARCH_LIST="8.9+PTX"
+  228  export CUDA_HOME=/usr/local/cuda-12.8
+  229  export PATH=$CUDA_HOME/bin:$PATH
+  230  export LD_LIBRARY_PATH=$CUDA_HOME/lib64:$LD_LIBRARY_PATH
+  231  pip install -v .
+  232  pip install -v . --no-build-isolation
+  233  sudo apt install -y libeigen3-dev
+  234  pip install -v . --no-build-isolation
+  235  sudo apt update
+  236  pip install -v . --no-build-isolation
+  237  ls /usr/include/eigen3/Eigen/Sparse
+  238  pip install -v . --no-build-isolation
+  239  sudo apt install libeigen3-dev
+  240  sudo apt-get update
+  241  sudo apt-get install libeigen3-dev
+  242  export EIGEN_HOME=/usr/include/eigen3
+  243  pip install -v . --no-build-isolation
+  244  rm -rf build/ dist/ *.egg-info
+  245  pip install .
+  246  rm -rf build/ dist/ *.egg-info
+  247  export CPLUS_INCLUDE_PATH=/usr/include/eigen3:$CPLUS_INCLUDE_PATH
+  248  export CPATH=/usr/include/eigen3:$CPATH
+  249  pip install -v . --no-build-isolation
+  250  lspci | grep -i nvidia
+  251  sudo ubuntu-drivers devices
+  252  sudo apt install -y nvidia-driver-580-open
+  253  nvcc --version
+  254  echo 'export CUDA_HOME=/usr' >> ~/.bashrc
+  255  echo 'export PATH=/usr/bin:$PATH' >> ~/.bashrc
+  256  echo 'export LD_LIBRARY_PATH=/usr/lib/x86_64-linux-gnu:$LD_LIBRARY_PATH' >> ~/.bashrc
+  257  export EIGEN_HOME=/usr/include/eigen3
+  258  python - <<EOF
+  259  import torch
+  260  print("torch:", torch.__version__)
+  261  print("cuda available:", torch.cuda.is_available())
+  262  print("gpu:", torch.cuda.get_device_name(0))
+  263  EOF
+  264  conda activate phmr
+  265  cd DROID-SLAM/
+  266  python - <<EOF
+  267  import torch
+  268  print("torch:", torch.__version__)
+  269  print("cuda available:", torch.cuda.is_available())
+  270  print("gpu:", torch.cuda.get_device_name(0))
+  271  EOF
+  272  nvcc --version
+  273  nvidia-smi
+  274  sudo apt-get purge nvidia-*
+  275  sudo apt-get autoremove
+  276  sudo apt-get update
+  277  sudo ubuntu-drivers devices
+  278  sudo apt install -y nvidia-driver-580-open
+  279  nvidia-smi
+  280  sudo apt install nvidia-cuda-toolkit
+  281  nvidia-smi
+  282  sudo apt install -y nvidia-driver-580
+  283  sudo apt-get purge "^nvidia-.*"
+  284  sudo apt autoremove -y
+  285  sudo apt install -y nvidia-driver-535
+  286  nvidia-smi
+  287  sudo apt update
+  288  sudo apt install -y linux-headers-$(uname -r) build-essential dkms
+  289  lsmod | grep nvidia
+  290  sudo modprobe nvidia
+  291  sudo apt update
+  292  sudo apt install -y   linux-headers-$(uname -r)   linux-modules-extra-$(uname -r)   build-essential   dkms
+  293  conda activate phmr
+  294  cd video2robot/
+  295  python scripts/run_pipeline.py --project data/video_001
+  296  export PYTHONPATH=$HOME/DROID-SLAM:$PYTHONPATH
+  297  python scripts/run_pipeline.py --project data/video_001
+  298  export PYTHONPATH=/home/ubuntu/DROID-SLAM/droid_slam:$PYTHONPATH
+  299  python scripts/run_pipeline.py --project data/video_001
+  300  echo 'export PYTHONPATH=/home/ubuntu/DROID-SLAM/droid_slam:$PYTHONPATH' >> ~/.bashrc
+  301  cd ../
+  302  cd Desktop/
+  303  history > my_commands.txt
+  304  nvidia-smi
+  305  nvcc --version
+  306  sudo apt install nvidia-cuda-toolkit
+  307  prime-select query
+  308  sudo apt install nvidia-prime
+  309  prime-select query
+  310  prime-select ondemand
+  311  nvcc --version
+  312  nvidia-smi
+  313  sudo apt install nvidia-cuda-toolkit
+  314  sudo apt-get purge "^nvidia-.*"
+  315  sudo apt-get autoremove
+  316  sudo apt-get clean
+  317  sudo apt-get update
+  318  sudo apt-get install -y linux-headers-$(uname -r) build-essential
+  319  deactivate
+  320  conda deactivate
+  321  sudo apt-get install -y linux-headers-$(uname -r) build-essential
+  322  curl https://raw.githubusercontent.com/GoogleCloudPlatform/compute-gpu-installer/main/lib/install_nvidia.sh -o install_nvidia.sh
+  323  sudo bash install_nvidia.sh
+  324  sudo bash ./install_nvidia.sh
+  325  bash ./install_nvidia.sh
+  326  sudo apt-get install -y nvidia-driver-550-open nvidia-dkms-550-open
+  327  sudo reboot
+  328  nvidia-smi 
+  329  nvcc --version
+  330  sudo apt-get remove --purge '^nvidia-.*'
+  331  sudo apt-get remove --purge '^libnvidia-.*'
+  332  sudo apt-get remove --purge '^cuda-.*'
+  333  sudo apt-get install linux-headers-$(uname -r)
+  334  wget https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2204/x86_64/cuda-ubuntu2204.pin
+  335  sudo mv cuda-ubuntu2204.pin /etc/apt/preferences.d/cuda-repository-pin-600
+  336  wget https://developer.download.nvidia.com/compute/cuda/13.1.0/local_installers/cuda-repo-ubuntu2204-13-1-local_13.1.0-590.44.01-1_amd64.deb
+  337  sudo dpkg -i cuda-repo-ubuntu2204-13-1-local_13.1.0-590.44.01-1_amd64.deb
+  338  sudo cp /var/cuda-repo-ubuntu2204-13-1-local/cuda-*-keyring.gpg /usr/share/keyrings/
+  339  sudo apt-get update
+  340  sudo apt-get -y install cuda-toolkit-13-1
+  341  sudo apt-get install -y cuda-drivers
+  342  nvidia-smi
+  343  nvidia-smi 
+  344  nvidia-smi
+  345  sudo systemctl stop google-cloud-ops-agent
+  346  curl -L https://storage.googleapis.com/compute-gpu-installation-us/installer/latest/cuda_installer.pyz --output cuda_installer.pyz
+  347  sudo python3 cuda_installer.pyz install_driver --installation-mode=repo --installation-branch=lts
+  348  sudo python3 cuda_installer.pyz install_driver --installation-mode=binary --installation-branch=lts
+  349  sudo nvidia-smi
+  350  sudo apt upgrade
+  351  python3 cuda_installer.pyz verify_cuda
+  352  nvidia-smi
+  353  This error usually happens because of a version conflict or a broken installation state where the package manager is trying to install multiple driver versions (550 and 580) simultaneously. Since dpkg is locked in an error state, you'll need to clear the cache and force a cleanup before you can install the correct driver.
+  354  Here is the step-by-step process to resolve this.
+  355  1. Clear the Package Manager Lock
+  356  First, we need to force the package manager to forget the failed configurations. Run these commands in order:
+  357  Bash
+  358  sudo dpkg --configure -a
+  359  sudo apt-get install -f
+  360  If these return errors about "dependency problems," move to the next step to purge the conflicting drivers.
+  361  2. Purge All NVIDIA Packages
+  362  To fix the "unconfigured" status, it is often best to start with a clean slate. This removes the broken 550 and 580 packages without deleting your personal files.
+  363  Bash
+  364  sudo apt-get purge 'nvidia-*'
+  365  sudo apt-get autoremove
+  366  sudo apt-get autoclean
+  367  dpkg -l | grep -i nvidia
+  368  sudo apt-get purge 'cuda*' 'nsight*' 'nvidia*'
+  369  sudo systemctl stop google-cloud-ops-agent
+  370  dpkg -l | grep -i nvidia
+  371  sudo apt purge '~c'
+  372  curl -L https://storage.googleapis.com/compute-gpu-installation-us/installer/latest/cuda_installer.pyz --output cuda_installer.pyz
+  373  sudo python3 cuda_installer.pyz install_driver --installation-mode=binary --installation-branch=lts
+  374  bash fetch_data.sh 
+  375  git clone https://github.com/yufu-wang/PromptHMR.git
+  376  lsb_release -a
+  377  nvidia-smi
+  378  conda activate phmr
+  379  cd video2robot/
+  380  python scripts/run_pipeline.py --project data/video_001
+  381  python scripts/generate_video.py --action "Action sequence: The subject walks forward."
+  382  python scripts/run_pipeline.py   --input_video ~/video2robot/data/video_001/original.mp4   --output_folder ~/video2robot/data/video_001
+  383  ls
+  384  cd third_party/
+  385  ls
+  386  cd PromptHMR/
+  387  python scripts/generate_video.py --action "Action sequence: The subject walks forward."
+  388  python scripts/run_pipeline.py --project data/video_001
+  389  python scripts/run_pipeline.py   --input_video ~/video2robot/data/video_001/original.mp4   --output_folder ~/video2robot/data/video_001
+  390  cd ../../
+  391  sudo install git-lfs
+  392  sudo apt install git-lfs
+  393  python scripts/generate_video.py --action "Action sequence: The subject walks forward."
+  394  python scripts/run_pipeline.py --project data/video_001
+  395  python scripts/extract_pose.py --project data/video_001
+  396  python scripts/run_pipeline.py --project data/video_001
+  397  nvidia-smi
+  398  sudo apt install nvidia-utils-470
+  399  nvidia-smi
+  400  sudo python3 cuda_installer.pyz install_cuda --installation-mode=binary --installation-branch=lts
+  401  NVIDIA_DRIVER_VERSION=$(sudo apt-cache search 'linux-modules-nvidia-[0-9]+-gcp$' | awk '{print $1}' | sort | tail -n 1 | head -n 1 | awk -F"-" '{print $4}')
+  402  nvidia-smi
+  403  sudo nvidia-smi
+  404  sudo tee /etc/apt/preferences.d/cuda-repository-pin-600 > /dev/null <<EOL
+  405  Package: nsight-compute
+  406  Pin: origin *ubuntu.com*
+  407  Pin-Priority: -1
+  408  Package: nsight-systems
+  409  Pin: origin *ubuntu.com*
+  410  Pin-Priority: -1
+  411  Package: nvidia-modprobe
+  412  Pin: release l=NVIDIA CUDA
+  413  Pin-Priority: 600
+  414  Package: nvidia-settings
+  415  Pin: release l=NVIDIA CUDA
+  416  Pin-Priority: 600
+  417  Package: *
+  418  Pin: release l=NVIDIA CUDA
+  419  Pin-Priority: 100
+  420  EOL
+  421  sudo apt install software-properties-common
+  422  export UBUNTU_VERSION=ubuntu2204/x86_64
+  423  wget https://developer.download.nvidia.com/compute/cuda/repos/$UBUNTU_VERSION/cuda-keyring_1.0-1_all.deb
+  424  sudo dpkg -i cuda-keyring_1.0-1_all.deb
+  425  sudo add-apt-repository "deb https://developer.download.nvidia.com/compute/cuda/repos/$UBUNTU_VERSION/ /"
+  426  conda activate phmr
+  427  uvicorn web.app:app --host 0.0.0.0 --port 8000
+  428  sudo apt install uvicorn
+  429  cd video2robot/
+  430  uvicorn web.app:app --host 0.0.0.0 --port 8000
+  431  pip install fastapi
+  432  uvicorn web.app:app --host 0.0.0.0 --port 8000
+  433  pip install fastapi
+  434  uvicorn web.app:app --host 0.0.0.0 --port 8000
+  435  python -m uvicorn web.app:app --host 0.0.0.0 --port 8000
+  436  pip install uvicorn
+  437  python -m uvicorn web.app:app --host 0.0.0.0 --port 8000
+  438  pip install python-multipart
+  439  python -m uvicorn web.app:app --host 0.0.0.0 --port 8000
+  440  conda activate phmr
+  441  ./install.sh
+  442  bash ./install.sh 
+  443  python - <<EOF
+import torch
+print("torch:", torch.__version__)
+print("cuda available:", torch.cuda.is_available())
+print("gpu:", torch.cuda.get_device_name(0))
+EOF
+
+  444  bash ./install.sh --pt_version=2.9.1
+  445  cd ../
+  446  bash scripts/fetch_data.sh
+  447  python -m uvicorn web.app:app --host 0.0.0.0 --port 8000cd ~
+  448  cd ~
+  449  wget https://dl.fbaipublicfiles.com/segment_anything_2/072824/sam2_hiera_tiny.pt -O /home/ubuntu/video2robot/third_party/PromptHMR/data/pretrain/sam2_ckpts/sam2_hiera_tiny.pt
+  450  wget --user-agent="Mozilla/5.0" https://dl.fbaipublicfiles.com/detectron2/COCO-Keypoints/keypoint_rcnn_R_50_FPN_3x/137849621/model_final_a6e976.pkl -O keypoint_rcnn_5ad38f.pkl
+  451  wget -O keypoint_rcnn_5ad38f.pkl https://www.dropbox.com/s/9n796d7m7i63673/model_final_a6e976.pkl?dl=1
+  452  ls -lh keypoint_rcnn_5ad38f.pkl
+  453  python3 -c "
+import requests
+from tqdm import tqdm
+url = 'https://huggingface.co/detectron2/keypoint_rcnn_R_50_FPN_3x/resolve/main/model_final_a6e976.pkl'
+response = requests.get(url, stream=True)
+with open('keypoint_rcnn_5ad38f.pkl', 'wb') as f:
+    for data in tqdm(response.iter_content(chunk_size=1024)):
+        f.write(data)
+"
+  454  pip install tqdm
+  455  python3 -c "
+import requests
+from tqdm import tqdm
+url = 'https://huggingface.co/detectron2/keypoint_rcnn_R_50_FPN_3x/resolve/main/model_final_a6e976.pkl'
+response = requests.get(url, stream=True)
+with open('keypoint_rcnn_5ad38f.pkl', 'wb') as f:
+    for data in tqdm(response.iter_content(chunk_size=1024)):
+        f.write(data)
+"
+  456  python3 -c "
+import urllib.request
+url = 'https://huggingface.co/detectron2/keypoint_rcnn_R_50_FPN_3x/resolve/main/model_final_a6e976.pkl'
+print('Starting download... this may take a minute.')
+urllib.request.urlretrieve(url, 'keypoint_rcnn_5ad38f.pkl')
+print('Download complete!')
+"
+  457  wget https://github.com/facebookresearch/detectron2/blob/main/MODEL_ZOO.md -O
+  458  wget https://dl.fbaipublicfiles.com/detectron2/COCO-Keypoints/keypoint_rcnn_R_50_FPN_3x/137849621/model_final_a6e976.pkl -O keypoint_rcnn_5ad38f.pkl
+  459  wget --user-agent="Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36" --no-check-certificate --continue "https://dl.fbaipublicfiles.com/detectron2/COCO-Keypoints/keypoint_rcnn_R_50_FPN_3x/137849621/model_final_a6e976.pkl" -O keypoint_rcnn_5ad38f.pkl
+  460  python3 -c "
+import urllib.request
+
+url = 'https://dl.fbaipublicfiles.com/detectron2/COCO-Keypoints/keypoint_rcnn_R_50_FPN_3x/137849621/model_final_a6e976.pkl'
+headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36'}
+
+print('Connecting to server with Browser Identity...')
+req = urllib.request.Request(url, headers=headers)
+
+try:
+    with urllib.request.urlopen(req) as response, open('keypoint_rcnn_5ad38f.pkl', 'wb') as out_file:
+        print('Download started. Please wait (this is 285MB)...')
+        data = response.read()
+        out_file.write(data)
+    print('Download Complete!')
+except Exception as e:
+    print(f'Error: {e}')
+"
+  461  wget -O keypoint_rcnn_5ad38f.pkl "https://www.dropbox.com/s/9n796d7m7i63673/model_final_a6e976.pkl?dl=1"
+  462  python3 -c "
+import requests
+def download_file_from_google_drive(id, destination):
+    URL = 'https://docs.google.com/uc?export=download'
+    session = requests.Session()
+    response = session.get(URL, params={'id': id}, stream=True)
+    token = None
+    for key, value in response.cookies.items():
+        if key.startswith('download_warning'):
+            token = value
+            break
+    if token:
+        params = {'id': id, 'confirm': token}
+        response = session.get(URL, params=params, stream=True)
+    with open(destination, 'wb') as f:
+        for chunk in response.iter_content(32768):
+            if chunk: f.write(chunk)
+
+download_file_from_google_drive('1_h6-X2_U9UvM-vE4uE_3eXz_XjN6-9Y9', 'keypoint_rcnn_5ad38f.pkl')
+print('Download Finished')
+"
+  463  python3 -c "
+import requests
+def download_file_from_google_drive(id, destination):
+    URL = 'https://docs.google.com/uc?export=download'
+    session = requests.Session()
+    response = session.get(URL, params={'id': id}, stream=True)
+    token = None
+    for key, value in response.cookies.items():
+        if key.startswith('download_warning'):
+            token = value
+            break
+    if token:
+        params = {'id': id, 'confirm': token}
+        response = session.get(URL, params=params, stream=True)
+    with open(destination, 'wb') as f:
+        for chunk in response.iter_content(32768):
+            if chunk: f.write(chunk)
+
+download_file_from_google_drive('1_h6-X2_U9UvM-vE4uE_3eXz_XjN6-9Y9', 'keypoint_rcnn_5ad38f.pkl')
+print('Download Finished')
+"
+  464  wget https://github.com/rwightman/detectron2-models/releases/download/v0.1/model_final_a6e976.pkl -O keypoint_rcnn_5ad38f.pkl
+  465  wget https://dl.fbaipublicfiles.com/detectron2/COCO-Keypoints/keypoint_rcnn_X_101_32x8d_FPN_3x/139618692/model_final_04e291.pkl -O x101_weights.pkl
+  466  curl -L -A "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36" -o keypoint_rcnn_5ad38f.pkl "https://github.com/rwightman/detectron2-models/releases/download/v0.1/model_final_a6e976.pkl"
+  467  cd Desktop/
+  468  history >> my_commands.txt 

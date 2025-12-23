@@ -1,0 +1,128 @@
+While activated phmr environment clone the DROID-SLAM repo in /home
+
+git clone https://github.com/princeton-vl/DROID-SLAM.git
+
+Dont forget to export the path for droid and add permanently to the bashrc file:
+
+export PYTHONPATH=/home/ubuntu/DROID-SLAM/droid_slam:$PYTHONPATH
+
+echo 'export PYTHONPATH=/home/ubuntu/DROID-SLAM/droid_slam:$PYTHONPATH' >> ~/.bashrc
+
+python - <<EOF
+import droid
+print(droid)
+EOF
+   
+INside DROID-SLAM FOLDER:
+
+export TORCH_CUDA_ARCH_LIST="8.9+PTX"
+export CUDA_HOME=/usr/local/cuda-12.8
+export PATH=$CUDA_HOME/bin:$PATH
+export LD_LIBRARY_PATH=$CUDA_HOME/lib64:$LD_LIBRARY_PATH
+
+
+pip install -v . --no-build-isolation
+
+sudo apt install -y libeigen3-dev
+
+pip install -v . --no-build-isolation
+
+ls /usr/include/eigen3/Eigen/Sparse
+
+sudo apt install libeigen3-dev
+
+export EIGEN_HOME=/usr/include/eigen3
+
+rm -rf build/ dist/ *.egg-info
+
+export CPLUS_INCLUDE_PATH=/usr/include/eigen3:$CPLUS_INCLUDE_PATH
+
+export CPATH=/usr/include/eigen3:$CPATH
+
+pip install -v . --no-build-isolation
+
+lspci | grep -i nvidia
+
+sudo ubuntu-drivers devices
+
+INSTALL THE RECOMMENDED VERSION
+sudo apt install -y nvidia-driver-580-open
+
+nvcc --version
+echo 'export CUDA_HOME=/usr' >> ~/.bashrc
+echo 'export PATH=/usr/bin:$PATH' >> ~/.bashrc
+
+echo 'export LD_LIBRARY_PATH=/usr/lib/x86_64-linux-gnu:$LD_LIBRARY_PATH' >> ~/.bashrc
+
+export EIGEN_HOME=/usr/include/eigen3
+
+**************************************************
+**************************************************
+
+
+INSIDE video2robot directory need following dependencies and make sure phmr environment is activated
+
+conda activate phmr
+
+
+CHECK CUDA GPUs available
+
+python - <<EOF
+import torch
+print("torch:", torch.__version__)
+print("cuda available:", torch.cuda.is_available())
+print("gpu:", torch.cuda.get_device_name(0))
+EOF
+
+sudo apt install -y ffmpeg
+
+pip install openai
+
+pip install python-dotenv
+
+pip install torch-scatter   -f https://data.pyg.org/whl/torch-2.9.0+cu128.html   --no-build-isolation
+
+pip install fastapi
+pip install python-multipart
+
+python -m uvicorn web.app:app --host 0.0.0.0 --port 8000
+
+Go to the 
+cd ~/video2robot/third_party/PromptHMR
+
+Then run below command to fetch the checkpoints for the camera calibration
+
+bash scripts/fetch_data.sh
+
+Detectron library ISsue
+
+Inside the conda phmr environment make sure the CUDA version is 12.8 and not 13
+
+nvcc --version
+conda install -c nvidia cuda-toolkit=12.8 -y
+
+EXport the path and install detectron
+export TORCH_CUDA_ARCH_LIST="8.0"
+export CUDA_HOME=$CONDA_PREFIX
+python -m pip install --no-build-isolation git+https://github.com/facebookresearch/detectron2.git
+
+
+
+*****************************************************
+*****************************************************
+NVIDIA DRIVER ISSUES ON GOOGLE CLOUD VM INSTANCE
+*****************************************************
+*****************************************************
+
+Remove all the multiple versions using:
+
+sudo apt-get purge 'cuda*' 'nsight*' 'nvidia*' '~c'
+
+sudo apt-get autoremove
+
+sudo apt-get autoclean
+
+Then follow below link to setup Nvidia driver and CUDA on google cloud
+https://docs.cloud.google.com/compute/docs/gpus/install-drivers-gpu#verify-linux
+
+
